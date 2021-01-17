@@ -107,7 +107,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"..\/newmap\/floortileset.png",
+         "image":"floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -120,7 +120,7 @@
         {
          "columns":16,
          "firstgid":65,
-         "image":"..\/newmap\/walls.png",
+         "image":"walls.png",
          "imageheight":480,
          "imagewidth":512,
          "margin":0,
@@ -133,7 +133,7 @@
         {
          "columns":16,
          "firstgid":305,
-         "image":"..\/newmap\/walls2.png",
+         "image":"walls2.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1956,7 +1956,7 @@
         {
          "columns":16,
          "firstgid":561,
-         "image":"..\/newmap\/tilesets_deviant_milkian_1.png",
+         "image":"tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1969,7 +1969,7 @@
         {
          "columns":10,
          "firstgid":817,
-         "image":"..\/newmap\/desks.png",
+         "image":"desks.png",
          "imageheight":352,
          "imagewidth":320,
          "margin":0,
