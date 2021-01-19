@@ -1,5 +1,5 @@
 <html>
-<body>
+<body style="background-color:white;">
 <script>
 
 function getCookie(name) {
@@ -23,12 +23,13 @@ function getCookie(name) {
 }
 
 
-var emergencydoor = getCookie("emergencydoor")
+var emergencydoor = getCookie("emergencydoor");
+console.log(emergencydoor);
 
-if (emergencydoor != "")
- window.top.location.href = "https://play.workadventu.re/_/global/antonhino.github.io/smartofficemap/floor2/map.json"; 
-else
-	document.getElementById("door").innerHTML = "This is an emergency door, it only opens in case of emergency";
+//if (emergencydoor != "")
+//	window.top.location.href = "https://play.workadventu.re/_/global/antonhino.github.io/smartofficemap/floor2/map.json"; 
+//else
+//	document.getElementById("door").innerHTML = "This is an emergency door, it only opens in case of emergency";
  </script>
  
  <div id="door"></div>
