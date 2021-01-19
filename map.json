@@ -181,7 +181,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"_\/floor2\/map.json"
+                 "value":"@\/floor2\/map.json"
                 }],
          "type":"tilelayer",
          "visible":true,
