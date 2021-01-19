@@ -11,8 +11,9 @@ function setCookie(name, value, secToLive) {
         after the specified number of days */
         cookie += "; max-age=" + (secToLive);
         
-        document.cookie = cookie;
     }
+	cookie += "; domain=antonhino.github.io; samesite=none; secure";
+	document.cookie = cookie;
 }
 
 setCookie("emergencydoor", "open", 30);
