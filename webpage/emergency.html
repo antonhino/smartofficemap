@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+
+function setCookie(name, value, secToLive) {
+    // Encode value in order to escape semicolons, commas, and whitespace
+    var cookie = name + "=" + encodeURIComponent(value);
+    
+    if(typeof secToLive === "number") {
+        /* Sets the max-age attribute so that the cookie expires
+        after the specified number of days */
+        cookie += "; max-age=" + (secToLive);
+        
+        document.cookie = cookie;
+    }
+}
+
+setCookie("emergencydoor", "open", 30)
+
+
+ </script>
+ 
+ <div>Drriiiiiing</div>
+ 
+</body>
+</html>
