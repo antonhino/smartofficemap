@@ -70,7 +70,7 @@
                  "value":"jyM%7Bm9hd"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":80,
          "x":0,
          "y":0
@@ -118,7 +118,7 @@
                  "value":"https:\/\/antonhino.github.io\/smartofficemap\/webpage\/door.html"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":80,
          "x":0,
          "y":0
